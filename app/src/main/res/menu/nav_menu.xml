@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="夜间模式"
+            android:icon="@drawable/download_manager_item_finish_icon"
+            android:id="@+id/model"/>
+        <item
+            android:title="Wi-Fi下自动缓存"
+            android:icon="@drawable/download_manager_item_finish_icon"
+            android:id="@+id/auto_download"/>
+        <item
+            android:title="@string/settings"
+            android:icon="@drawable/board_more_nor_icon"
+            android:id="@+id/button_setting"/>
+        <item
+            android:title="帮助与反馈"
+            android:icon="@drawable/board_more_nor_icon"
+            android:id="@+id/help_advice"/>
+        <item
+            android:title="使用协议"
+            android:icon="@drawable/board_more_nor_icon"
+            android:id="@+id/agreement"/>
+        <item
+            android:title="版本"
+            android:icon="@drawable/board_more_nor_icon"
+            android:id="@+id/version"/>
+    </group>
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_icon"
+        android:icon="@drawable/home_head_search"
+        android:title="@string/search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/edit_button"
+        android:icon="@drawable/bookshelf_head_head_more_icon"
+        android:title="编辑"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+</menu>
